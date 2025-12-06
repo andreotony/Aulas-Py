@@ -1,0 +1,8 @@
+numero = int(input("Digite o numero: \n"))
+
+if numero > 0:
+    print("Numero positivo") 
+if numero % 2 == 0:
+    print("Numero multiplo de 2")
+if numero % 5 == 0:
+    print("Numero multiplo de 5")
